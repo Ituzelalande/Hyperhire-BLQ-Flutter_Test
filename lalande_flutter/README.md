@@ -1,6 +1,6 @@
 # lalande_flutter
 
-BLQ Assignment
+BLQ Assignment.
 
 ## Getting Started
 
