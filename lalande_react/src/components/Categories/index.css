@@ -1,0 +1,49 @@
+
+.container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 960px;
+    position: relative;
+}
+
+.category-section{
+    border-bottom:1px solid #eee;
+    background-color:white;
+    padding:4px 0;
+    position:fixed;
+    top:70px;
+    width:100%;
+    min-height: 80px;
+    z-index: 100;
+}
+
+.category-image {
+    width: 72px;
+    height: 72px;
+}
+
+.category-title {
+    font-weight: normal;
+    color: #333333;
+    font-family: Pretendard, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.swiper-wrapper {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.swiper-slide {
+    margin-right: 26px;
+}
+
+.category-section .swiper-slide {
+    margin-right: 26px;
+    width: 100px;
+    text-align: center;
+}

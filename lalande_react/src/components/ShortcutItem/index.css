@@ -1,0 +1,54 @@
+
+.shortcut-container {
+    width: 100%;
+    padding: 16px 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 12px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+@media (min-width: 960px) {
+    .shortcut-container {
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        grid-row-gap: 0px;
+        grid-column-gap: 0px;
+    }
+}
+
+.shortcut-item {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.shortcut-item img {
+    width: 62px;
+    height: 62px;
+    height: auto;
+}
+
+.shortcut-item p {
+    margin-top: 5px;
+}
